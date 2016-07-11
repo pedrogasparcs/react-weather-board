@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js -p",
-    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --progress --colors"
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --progress --colors",
+    "deploy": "npm run prod; git add .; git commit -am \"deployment\"; git push origin master;"
   },
   "keywords": [
     "react",
