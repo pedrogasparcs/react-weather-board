@@ -61,6 +61,10 @@ class InputTokenizer extends Component {
     handleBlur () {
         this.isFocused = false;
     }
+
+    /**
+     *
+     */
     parseInput () {
         let tokensAtInput = String(this.refs.tokensInput.value).split(this.props.tokenizerChar);
         if (tokensAtInput.length > 1) {
@@ -73,6 +77,11 @@ class InputTokenizer extends Component {
             inputValue: tokensAtInput.join("")
         });
     }
+
+    /**
+     *
+     * @param token
+     */
     addToken (token) {
         let tokens = this.state.tokens;
         tokens.push({value:token});
@@ -81,6 +90,11 @@ class InputTokenizer extends Component {
         });
         this.dispatchTokens (tokens);
     }
+
+    /**
+     *
+     * @param token
+     */
     removeTokenByRef (token) {
         let tokens = this.state.tokens.filter((item) => item.value != token.value);
         this.setState({
@@ -88,6 +102,10 @@ class InputTokenizer extends Component {
         });
         this.dispatchTokens (tokens);
     }
+
+    /**
+     *
+     */
     removeLastToken () {
         this.state.tokens.pop();
         this.setState({
@@ -95,11 +113,19 @@ class InputTokenizer extends Component {
         });
         this.dispatchTokens (this.state.tokens);
     }
+
+    /**
+     *
+     * @param tokensToDispatch
+     */
     dispatchTokens (tokensToDispatch) {
         let ret = tokensToDispatch.map((item) => item.value).join(this.props.tokenizerChar);
-        console.log(tokensToDispatch, ret);
+        //console.log(tokensToDispatch, ret);
         this.props.onChange (ret);
     }
+    /**
+     *
+     */
     focus () {
         this.refs.tokensInput.focus ();
     }

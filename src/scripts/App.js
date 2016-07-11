@@ -50,8 +50,13 @@ export default class App extends Component {
             this.getWeatherInfo(term);
         });
     }
+
+    /**
+     * 
+     * @param cityQuery
+     */
     getWeatherInfo (cityQuery) {
-        console.log ("query city", cityQuery);
+        //console.log ("query city", cityQuery);
         let call = ajax ("http://api.openweathermap.org/data/2.5/weather?APPID=" + Config.weather.apiKey + "&units=metric&q=" + cityQuery, null, "get", true).
         then(
             (data) => {
