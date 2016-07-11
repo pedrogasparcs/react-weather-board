@@ -1,0 +1,147 @@
+// font
+@import url(http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,100,400,700,900)
+
+// variables
+$font: Roboto, "Arial", sans-serif
+$font-city-color: #3B4A51
+$font-temp-color: #4C5766
+$font-info-color: #A1A8AF
+
+$small-break-point: 768px
+$medium-break-point: 992px
+$large-break-point: 1200px
+
+$page-background: #EBEFF1
+$search-background: #646E7B
+$search-input-background: rgba(255,255,255,0.2)
+$search-input-font-color: #FFFFFF
+$token-color: #EBEBEB
+$token-background-color: rgba(255,255,255,0.2)
+$token-close-color: rgba(255,255,255,0.6)
+$weather-location-background: #FFFFFF
+// minimal resetting
+*
+  margin: 0
+  padding: 0
+
+// main layout
+body
+  background: $page-background
+  font-family: $font
+.container
+  .search-container
+    padding: 10px
+    background: $search-background
+    text-align: center
+    .search-form
+      display: inline-block
+      background: $search-input-background
+  .board-container
+    margin-top: 15px
+    width: 100%
+    .board-wrapper
+      padding-left: 15px
+      padding-right: 15px
+
+// search styling
+.search-form
+  position: relative
+  width: 100%
+  height: 34px
+  padding-left: 8px
+  padding-right: 8px
+  box-sizing: border-box
+  @media (min-width: $small-break-point)
+    width: 720px
+  input
+    width: 100%
+    height: 34px // because of border-box which permits left padding without adding to the right
+    font: 100 14px/16px $font
+    color: $search-input-font-color
+    box-sizing: border-box
+    background: none
+    border: 0
+    outline: 0
+  .tokenizer-container
+    width: 100%
+    height: 30px
+    font: 400 20px/20px $font
+    .tokens
+      position: absolute
+      max-width: 100%
+      top: 1px
+      left: 0
+      .token
+        position: relative
+        border: 0
+        border-radius: 4px
+        padding: 8px
+        float: left
+        margin: 2px
+        cursor: pointer
+        background: $token-background-color
+        color: $token-color
+        font: 400 12px/12px $font
+        &:after
+          content: '\00D7'
+          font: 400 12px/12px $font
+          vertical-align: top
+          margin: 3px
+          color: $token-close-color
+
+// weather board and location styling
+.weather-board
+  overflow: hidden
+  width: 100%
+  margin-right: auto
+  margin-left: auto
+  @media (min-width: $small-break-point)
+    width: 750px
+  @media (min-width: $medium-break-point)
+    width: 970px
+  @media (min-width: $large-break-point)
+    width: 1170px
+  .weather-locations-container
+    margin-left: -15px
+    margin-right: -15px
+    overflow: hidden
+    .weather-location
+      float: left
+      overflow: hidden
+      width: 100%
+      @media (min-width: $small-break-point)
+        width: 50%
+      @media (min-width: $medium-break-point)
+        width: 33%
+      .weather-contents
+        background: $weather-location-background
+        margin: 15px
+        padding: 5px 15px 15px
+        overflow: hidden
+        color: $font-info-color
+        font: 400 12px/16px $font
+        .block
+          float: left
+          overflow: hidden
+          &.left-block
+            padding-top: 10px
+            width: 45%
+          &.middle-block
+            width: 30%
+          &.right-block
+            padding-top: 10px
+            width: 25%
+        .city-name
+          font: 700 16px/16px $font
+          color: $font-city-color
+        .date
+          line-height: 14px
+        .temp
+          font: 900 32px/43px $font
+          color: $font-temp-color
+          .super
+            vertical-align: text-top
+            font: 400 10px/20px $font
+            color: $font-info-color
+            padding-left: 4px
+

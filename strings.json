@@ -1,0 +1,21 @@
+{
+  "weather": {
+    "humidity": "Humidity: ",
+    "wind": "Wind: ",
+    "tempSymbol": "ºC"
+  },
+  "months": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ]
+}
