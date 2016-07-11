@@ -3,13 +3,14 @@
  */
 import React, { Component } from 'react';
 
-let Config = require('Config');
-
 import Search from './components/Search';
 import WeatherBoard from './components/WeatherBoard';
 import {ajax} from './helpers/sxp';
 
-let styles = require('../styles/main.sass');
+let Config = require('Config');
+if(process.env.NODE_ENV == "development") {
+    let styles = require('../styles/main.sass');
+}
 
 export default class App extends Component {
     constructor () {
