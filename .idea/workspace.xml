@@ -75,16 +75,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,6 +82,25 @@
               <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -119,7 +128,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherLocation.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeatherLocation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/components/WeatherLocation.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -183,6 +192,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/scripts/App.js" />
         <option value="$PROJECT_DIR$/src/scripts/components/InputTokenizer.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -422,12 +432,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1468002294872</updated>
-      <workItem from="1468002296341" duration="30656000" />
+      <workItem from="1468002296341" duration="30994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30656000" />
+    <option name="totallyTimeSpent" value="30994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1036" height="798" extended-state="0" />
@@ -516,27 +526,27 @@
         <state relative-caret-position="198">
           <caret line="15" column="31912" selection-start-line="15" selection-start-column="31912" selection-end-line="15" selection-end-column="31912" />
           <folding>
-            <marker date="1468279977000" expanded="true" signature="56443:57401" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="56457:56957" placeholder="/** Checks if an event is supported in the current execution environment. ...*/" />
-            <marker date="1468279977000" expanded="true" signature="87730:90203" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="87743:90188" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="88801:89167" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="88839:89166" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="121174:121372" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="121174:121373" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="121174:121386" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="121174:121401" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="148464:163062" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="148477:163047" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="153114:153226" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="183927:185253" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="184640:185240" placeholder="{&quot;_handleTopLevel&quot;: null...}" />
-            <marker date="1468279977000" expanded="true" signature="185150:185239" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="185165:185238" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="185222:185237" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="217034:217340" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="217200:217328" placeholder="{...}" />
-            <marker date="1468279977000" expanded="true" signature="217227:217327" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="56443:57401" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="56457:56957" placeholder="/** Checks if an event is supported in the current execution environment. ...*/" />
+            <marker date="1468280154000" expanded="true" signature="87730:90203" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="87743:90188" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="88801:89167" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="88839:89166" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="121174:121372" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="121174:121373" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="121174:121386" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="121174:121401" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="148464:163062" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="148477:163047" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="153114:153226" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="183927:185253" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="184640:185240" placeholder="{&quot;_handleTopLevel&quot;: null...}" />
+            <marker date="1468280154000" expanded="true" signature="185150:185239" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="185165:185238" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="185222:185237" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="217034:217340" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="217200:217328" placeholder="{...}" />
+            <marker date="1468280154000" expanded="true" signature="217227:217327" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -685,6 +695,23 @@
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
