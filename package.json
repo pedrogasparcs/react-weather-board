@@ -8,7 +8,7 @@
     "prod": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js -p",
     "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --progress --colors",
     "deploy": "git add .; git commit -am \"deployment\"; git push origin master;",
-    "server_deploy": "git pull origin master; npm run prod"
+    "server_deploy": "git pull origin master; npm install; npm run prod"
   },
   "keywords": [
     "react",
