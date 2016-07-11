@@ -9,8 +9,7 @@ import Search from './components/Search';
 import WeatherBoard from './components/WeatherBoard';
 import {ajax} from './helpers/sxp';
 
-let styles;
-    styles = require('../styles/main.sass');
+let styles = require('../styles/main.sass');
 
 export default class App extends Component {
     constructor () {
