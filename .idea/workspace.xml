@@ -64,14 +64,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputTokenizer.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InputTokenizer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/components/InputTokenizer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding>
                 <element signature="e#47#86#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,6 +91,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -98,16 +118,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sxp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/helpers/sxp.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,24 +128,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherBoard.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/components/WeatherBoard.js">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+            <state relative-caret-position="-45">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
               <folding>
-                <element signature="e#48#98#0" expanded="true" />
+                <element signature="e#0#46#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherLocation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scripts/components/WeatherLocation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="30" column="44" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="44" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -172,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/scripts/components/ResultBoard.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/scripts/components/WeatherBoard.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/strings.json" />
         <option value="$PROJECT_DIR$/src/scripts/components/WeatherLocation.js" />
         <option value="$PROJECT_DIR$/src/scripts/components/InputToken.js" />
@@ -181,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/scripts/components/Search.js" />
         <option value="$PROJECT_DIR$/src/scripts/App.js" />
         <option value="$PROJECT_DIR$/src/scripts/components/InputTokenizer.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -420,12 +420,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1468002294872</updated>
-      <workItem from="1468002296341" duration="27823000" />
+      <workItem from="1468002296341" duration="28309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27823000" />
+    <option name="totallyTimeSpent" value="28309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1036" height="798" extended-state="0" />
@@ -501,22 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/styles/main.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/style.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -530,27 +514,27 @@
         <state relative-caret-position="198">
           <caret line="15" column="31912" selection-start-line="15" selection-start-column="31912" selection-end-line="15" selection-end-column="31912" />
           <folding>
-            <marker date="1468079964000" expanded="true" signature="56443:57401" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="56457:56957" placeholder="/** Checks if an event is supported in the current execution environment. ...*/" />
-            <marker date="1468079964000" expanded="true" signature="87730:90203" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="87743:90188" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="88801:89167" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="88839:89166" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="121174:121372" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="121174:121373" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="121174:121386" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="121174:121401" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="148464:163062" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="148477:163047" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="153114:153226" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="183927:185253" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="184640:185240" placeholder="{&quot;_handleTopLevel&quot;: null...}" />
-            <marker date="1468079964000" expanded="true" signature="185150:185239" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="185165:185238" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="185222:185237" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="217034:217340" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="217200:217328" placeholder="{...}" />
-            <marker date="1468079964000" expanded="true" signature="217227:217327" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="56443:57401" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="56457:56957" placeholder="/** Checks if an event is supported in the current execution environment. ...*/" />
+            <marker date="1468277765000" expanded="true" signature="87730:90203" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="87743:90188" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="88801:89167" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="88839:89166" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="121174:121372" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="121174:121373" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="121174:121386" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="121174:121401" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="148464:163062" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="148477:163047" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="153114:153226" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="183927:185253" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="184640:185240" placeholder="{&quot;_handleTopLevel&quot;: null...}" />
+            <marker date="1468277765000" expanded="true" signature="185150:185239" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="185165:185238" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="185222:185237" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="217034:217340" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="217200:217328" placeholder="{...}" />
+            <marker date="1468277765000" expanded="true" signature="217227:217327" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -573,29 +557,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,13 +644,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/main.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/components/InputTokenizer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+        <state relative-caret-position="270">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
             <element signature="e#47#86#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
