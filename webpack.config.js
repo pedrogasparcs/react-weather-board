@@ -12,7 +12,7 @@ function getDevTool() {
     return false;
 }
 
-module.exports = {
+let config = {
     entry: {
         main: './src/scripts/main.js'
     },
@@ -38,26 +38,12 @@ module.exports = {
             {
                 test: /\.sass$/,
                 loader: "style-loader!css-loader!sass-loader"
-            },
-            {
-                test: /\.sass$/,
-                loader: ExtractTextPlugin.extract('style', 'css!sass')
             }
         ]
     },
     plugins: [
         new ExtractTextPlugin('dist/styles/main.css', {
             allChunks: true
-        }),
-        new webpack.DefinePlugin({
-            'process.env':{
-                'NODE_ENV': JSON.stringify('production')
-            }
-        }),
-        new webpack.optimize.UglifyJsPlugin({
-            compress:{
-                warnings: true
-            }
         })
     ],
     resolve: {
@@ -69,3 +55,26 @@ module.exports = {
         'Strings': JSON.stringify(require('./strings.json'))
     }
 }
+if (process.env.NODE_ENV === 'production') {
+    config.module.loaders.push (
+        {
+            test: /\.sass$/,
+            loader: ExtractTextPlugin.extract('style', 'css!sass')
+        }
+    )
+    config.plugins.push (
+        new webpack.DefinePlugin({
+            'process.env':{
+                'NODE_ENV': JSON.stringify('production')
+            }
+        })
+    );
+    config.plugins.push (
+        new webpack.optimize.UglifyJsPlugin({
+            compress:{
+                warnings: true
+            }
+        })
+    );
+}
+module.exports = config;
