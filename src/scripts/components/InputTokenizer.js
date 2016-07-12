@@ -69,10 +69,12 @@ class InputTokenizer extends Component {
      */
     parseInput () {
         let tokensAtInput = String(this.refs.tokensInput.value).split(this.props.tokenizerChar);
+        let token;
         if (tokensAtInput.length > 1) {
             while(tokensAtInput.length > 1)
             {
-                this.addToken (tokensAtInput.splice(0, 1)[0]);
+                token = tokensAtInput.splice(0, 1)[0];
+                token.length == 0 || this.addToken (token);
             }
         }
         this.setState({
