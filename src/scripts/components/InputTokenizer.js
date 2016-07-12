@@ -45,10 +45,12 @@ class InputTokenizer extends Component {
                 parser tokenizes based on tokenizerChar
                   */
                 e.preventDefault ();
-                this.setState({
-                    inputValue: String(this.refs.tokensInput.value) + this.props.tokenizerChar
-                });
-                this.parseInput();
+                if (String(this.refs.tokensInput.value) != "") {
+                    this.setState({
+                        inputValue: String(this.refs.tokensInput.value) + this.props.tokenizerChar
+                    });
+                    this.parseInput();
+                }
             }
             else if(e.keyCode == BACKSPACE_KEY && String(this.refs.tokensInput.value).length == 0) {
                 this.removeLastToken ();
