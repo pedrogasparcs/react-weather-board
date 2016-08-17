@@ -1,5 +1,5 @@
 # react-weather-board
-UpLabs exercise using webpack, react-js, sass.
+Exercise using webpack, react-js, sass.
 Data provided by OpenWeatherMap.org
 
 ### Cloning this repo? please follow these steps:
